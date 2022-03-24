@@ -7,27 +7,36 @@
 }
 
 body{
-    font-family: "SimSun-ExtB", sans-serif;
-    font-size: 72pt;
+    font: 12px/1.125 Arial,Helvetica,sans-serif;
+    font-family: "SimSun";
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: $primary;
+    color: $secondary;
+    text-decoration: none;
+
+    
 }
 
 .container{
-    max-width: 1340px;
+    max-width: 1100px;
     width: 100%;
 }
 
 h1{
-    font-size: 130px;
+    font-size: 100px;
 }
 h2{
-    font-size: 44px;
-}
-h3{
     font-size: 26px;
 }
-h4{
+h3{
     font-size: 20px;
+}
+h4{
+    font-size: 36px;
+}
+
+h5{
+    font-size: 22px;
 }

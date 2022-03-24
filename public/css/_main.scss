@@ -1,0 +1,31 @@
+.art-row{
+    margin: 60px 0;
+    width: 100%;
+    .row-info{
+        display: flex;
+        justify-content: space-between;
+        margin: 30px 0px;
+        a{
+            font-size: 20px;
+            cursor: pointer;
+        }
+    }
+    .art{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        article{
+            img{
+                width: 300px;
+            }
+            p{
+                margin-top: 5px;
+                font-size: 18px;
+            }
+            .artist-name{
+                margin-top: -3px;
+                color: $accent;
+            }
+        }
+    }
+}
