@@ -78,3 +78,12 @@ header {
         }
     }
 }
+
+
+.art-card{
+    transition: 200ms all ease;
+    cursor: pointer;
+    &:hover{
+        transform: scale(1.1);
+    }
+}
